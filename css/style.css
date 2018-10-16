@@ -1,0 +1,207 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+body{}
+header{
+    background: #283E4A;
+    padding: 1px 0px;
+}
+.headerr{
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.container{
+     /* width: 500px;
+     height: 450px;
+     background: #e3dcdc;
+    background: url(../images/background.jpg) no-repeat top center;
+    background-size: cover;
+    height: 92vh;
+    background-position: center;
+     /* margin: 0 auto; */
+    /* padding: 1.1px;
+     margin-top: 50px;
+     width: 400px;
+     margin: 28px auto;*/
+     padding: 15px;
+    background: url(../images/background.jpg) no-repeat top center;
+    background-size: cover;
+    height: 92vh;
+    background-position: center;
+}
+.form-contain{
+    width: 400px;
+    /* height: 400px; */
+    margin: 28px auto;
+}
+.logo{
+    width: 38%;
+    float: left;
+}
+ .logo img{
+    padding: 20px;
+}
+ .login{
+    width: 62%;
+    float: right;
+    padding: 0.5px;
+    display: block;
+}
+ .login form{}
+ .login ul{}
+ .login ul li{
+    list-style: none;
+    float: left;
+    margin-right: auto;
+}
+ .login input{
+    margin: 6px;
+    padding: 6px 16px;
+}
+ .login a{
+    /* float: right; */
+    /* float: left; */
+    /* text-align: right; */
+    display: inline-block;
+    /* display: grid; */
+    color: #fff;
+    padding: 14px 4px;
+}
+ .login_button{
+    background: #283E4A;
+    border-radius: 3px;
+    border: 1px solid #fafafa;
+    color: #fff;
+    padding: 4px 14px;
+}
+.formheader{
+    background: #F6F8FA;
+    margin: 0px;
+    padding: 0px;
+}
+section{}
+.formheader h2
+{
+    text-align: center;
+    /* background: white; */
+    padding: 16px 32px 8px 32px;
+    font-size: 26px;
+    /* font-style: normal; */
+    font-weight: 500;
+    }
+.formheader h3{
+    text-align: center;
+    line-height: 1.5;
+    font-weight: 400;
+    position: relative;
+    padding: 0 8px 16px;
+    border-bottom: 1px solid;
+}
+.formfooter{
+    text-align: center;
+    display: flex;
+    flex-flow: row wrap;
+    /* padding: 0 24px; */
+    justify-content: center;
+    background-color: #EDF0F3;
+    border-radius: 2px;
+    padding: 20px;
+}
+.formfooter label{
+    /* line-height: 1.42857; */
+    /* font-weight: 400; */
+    color: rgba(0,0,0,0.9);
+    /* flex: 100%; */
+    /* min-width: 0; */
+    text-align: left;
+    display: block;
+    font-size: 17px;
+}
+.formfooter input{
+    /* height: 32px; */
+    background: #fff;
+    border: 1px solid rgba(0,0,0,0.15);
+    display: block;
+    width: 100%;
+    border-radius: 2px;
+    padding: 5px;
+    width: 100%;
+    margin: -14px 0 -14 0;
+    margin-top: -14px;
+}
+.formfooter form{}
+.Agreement{
+    font-size: 1.2rem;
+    line-height: 1.33333;
+    font-weight: 400;
+    color: rgba(0,0,0,0.6);
+    text-align: center;
+    display: block;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.Agreement a{
+    /* font-size: 1.2rem; */
+    /* line-height: 1.33333; */
+    /* font-weight: 400; */
+    color: rgba(0,0,0,0.6);
+    font-size: 15px;
+}
+button
+{
+    font-size: 20px;
+    height: 32px;
+    background: #0073B1;
+    border: 1px solid rgba(0,0,0,0.15);
+    display: block;
+    width: 100%;
+    border-radius: 2px;
+    color: white;
+}
+.Agreement p{
+    font-size: 18px;
+}
+.down{
+     background: #434649;
+     padding: 0;
+     margin: 0;
+     width: 1500px;
+     height: 150px;
+   
+}
+.footer{
+    /* width: 100%; */
+    text-align: center;
+    color: white;
+    box-sizing: border-box;
+    padding: 0px 0px;
+}
+.footer ul{}
+.footer ul li {
+    list-style: none;
+    /* float: unset; */
+    text-align: center;
+    display: -webkit-inline-box;
+    /* margin-left: 100px; */
+    margin-top: 28px;
+}
+.footer ul li p {
+    font-size: 17px;
+
+}
+.footer ul li input{
+        padding: 8px
+}
+.footer ul li button{
+        background: #434649;
+    color: #a9a499;
+    /* border: 10px; */
+    margin: 10px;
+}
+.submit_button{}
+.section form{}
+.section label{}
+.section input{}
